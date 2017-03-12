@@ -1,0 +1,6 @@
+it/secuity/config/core/SpringMVCWebAppInitializer.class
+it/web/controller/LoginController.class
+it/secuity/config/core/SpringSecurityInitializer.class
+it/secuity/config/LoginApplicationConfig.class
+it/web/controller/PetController.class
+it/secuity/config/LoginSecurityConfig.class
