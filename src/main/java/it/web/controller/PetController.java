@@ -27,7 +27,7 @@ public class PetController {
     public @ResponseBody List<Pet> list(ModelMap model) {
         List<Pet> list = getList();
         return list;
-    }
+    } 
     
     @RequestMapping(value = "/delete", method = RequestMethod.GET)
     public @ResponseBody String dalete(ModelMap model) {

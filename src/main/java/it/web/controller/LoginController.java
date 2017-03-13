@@ -23,7 +23,7 @@ public class LoginController {
         ModelAndView model = new ModelAndView();
         if (error != null) { 
             model.addObject("error", "Invalid Credentials provided.");
-        } 
+        }  
  
         if (logout != null) {
             model.addObject("message", "Logged out from JournalDEV successfully.");

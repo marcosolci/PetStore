@@ -10,7 +10,7 @@ public class SpringMVCWebAppInitializer extends AbstractAnnotationConfigDispatch
     protected Class<?>[] getRootConfigClasses() {
         return new Class[] { LoginApplicationConfig.class };
     }
-
+ 
     @Override
     protected Class<?>[] getServletConfigClasses() {
         return null;
