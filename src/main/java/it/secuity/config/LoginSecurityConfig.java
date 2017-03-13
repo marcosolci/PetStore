@@ -31,10 +31,23 @@ public class LoginSecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests().antMatchers("/*").permitAll();
         /*
+        http
+        .authorizeRequests()
+            .antMatchers("/", "/home").permitAll()
+            .anyRequest().authenticated()
+            .and()
+        .formLogin()
+            .loginPage("/loginPage")
+            .permitAll()
+            .and()
+        .logout()
+            .permitAll();
+            */
+        /*
         http.authorizeRequests()
         .antMatchers("/homePage").access("hasRole('ROLE_USER')")
         .and()
-        .formLogin().loginPage("/lloginPage")
+        .formLogin().loginPage("/loginPage")
         .defaultSuccessUrl("/admin/homePage")
         .failureUrl("/loginPage?error")
         .usernameParameter("username").passwordParameter("password")                            

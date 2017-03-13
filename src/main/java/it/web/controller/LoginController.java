@@ -16,7 +16,7 @@ public class LoginController {
         return model;
     }   
              
-    @RequestMapping(value = "/loginPage**", method = RequestMethod.GET)
+    @RequestMapping(value = "/loginPage", method = RequestMethod.GET)
     public ModelAndView loginPage(@RequestParam(value = "error",required = false) String error,
           @RequestParam(value = "logout", required = false) String logout) {
                 
@@ -32,7 +32,7 @@ public class LoginController {
         model.setViewName("loginPage");
         return model;
     }
-
+/*
     @RequestMapping(value = "/admin**", method = RequestMethod.GET)
     public ModelAndView adminPage() {
 
@@ -44,4 +44,5 @@ public class LoginController {
             return model;
 
     }
+    */
 }

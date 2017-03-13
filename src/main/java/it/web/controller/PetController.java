@@ -24,12 +24,21 @@ public class PetController {
     } 
     
     @RequestMapping(value = "/list", method = RequestMethod.GET)
-    public @ResponseBody List<Pet> printHello(ModelMap model) {
-
+    public @ResponseBody List<Pet> list(ModelMap model) {
         List<Pet> list = getList();
-
         return list;
-
+    }
+    
+    @RequestMapping(value = "/delete", method = RequestMethod.GET)
+    public @ResponseBody String dalete(ModelMap model) {
+        
+        return "Deleted";
+    }
+    
+    @RequestMapping(value = "/add", method = RequestMethod.GET)
+    public @ResponseBody String add(ModelMap model) {
+        
+        return "Added";
     }
 
     private List<Pet> getList() {
@@ -40,7 +49,11 @@ public class PetController {
         pet.setCode("p1");
         pet.setName("name1");
         list.add(pet);
-
+        pet = new Pet();
+        pet.setId(2);
+        pet.setCode("p2");
+        pet.setName("name2");
+        list.add(pet);
         return list;
 
     }

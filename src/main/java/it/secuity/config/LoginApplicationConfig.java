@@ -18,7 +18,8 @@ public class LoginApplicationConfig {
     public InternalResourceViewResolver viewResolver() {
         InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
         viewResolver.setViewClass(JstlView.class);
-        viewResolver.setPrefix("/views/");
+        //viewResolver.setPrefix("/views/");
+        viewResolver.setPrefix("/admin/");
         viewResolver.setSuffix(".jsp");
         return viewResolver;
     } 
