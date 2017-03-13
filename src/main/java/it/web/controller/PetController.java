@@ -22,7 +22,7 @@ public class PetController {
         model.setViewName("homePage");
         return model;
     } 
-    
+     
     @RequestMapping(value = "/list", method = RequestMethod.GET)
     public @ResponseBody List<Pet> list(ModelMap model) {
         List<Pet> list = getList();
