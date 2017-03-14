@@ -1,7 +1,9 @@
-/Users/mac/Documents/workspace/PetStore/src/main/java/it/secuity/config/core/SpringMVCWebAppInitializer.java
-/Users/mac/Documents/workspace/PetStore/src/main/java/it/web/controller/PetController.java
-/Users/mac/Documents/workspace/PetStore/src/main/java/it/web/controller/LoginController.java
-/Users/mac/Documents/workspace/PetStore/src/main/java/it/secuity/config/LoginApplicationConfig.java
-/Users/mac/Documents/workspace/PetStore/src/main/java/it/secuity/config/LoginSecurityConfig.java
+/Users/mac/Documents/workspace/PetStore/src/main/java/it/security/config/controller/PetController.java
+/Users/mac/Documents/workspace/PetStore/src/main/java/it/security/config/CustomSuccessHandler.java
+/Users/mac/Documents/workspace/PetStore/src/main/java/it/security/config/LoginApplicationConfig.java
+/Users/mac/Documents/workspace/PetStore/src/main/java/it/security/config/Application.java
+/Users/mac/Documents/workspace/PetStore/src/main/java/it/security/config/controller/LoginController.java
+/Users/mac/Documents/workspace/PetStore/src/main/java/it/security/config/LoginSecurityConfig.java
 /Users/mac/Documents/workspace/PetStore/src/main/java/it/web/bean/Pet.java
-/Users/mac/Documents/workspace/PetStore/src/main/java/it/secuity/config/core/SpringSecurityInitializer.java
+/Users/mac/Documents/workspace/PetStore/src/main/java/it/security/config/core/SpringSecurityInitializer.java
+/Users/mac/Documents/workspace/PetStore/src/main/java/it/security/config/core/SpringMVCWebAppInitializer.java

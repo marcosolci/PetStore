@@ -1,6 +1,8 @@
-it/secuity/config/core/SpringMVCWebAppInitializer.class
-it/web/controller/LoginController.class
-it/secuity/config/core/SpringSecurityInitializer.class
-it/secuity/config/LoginApplicationConfig.class
-it/web/controller/PetController.class
-it/secuity/config/LoginSecurityConfig.class
+it/security/config/CustomSuccessHandler.class
+it/security/config/controller/PetController.class
+it/security/config/LoginApplicationConfig.class
+it/web/bean/Pet.class
+it/security/config/LoginSecurityConfig.class
+it/security/config/controller/LoginController.class
+it/security/config/core/SpringMVCWebAppInitializer.class
+it/security/config/core/SpringSecurityInitializer.class
